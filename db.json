@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "10 Habits of A Stylish Man",
+      "author": "Paul McGregor",
+      "datetime": "2016-06-30",
+      "content": " When being stylish is something you do effortlessly, it means you’ve reached a level of mastery. No man (even if they claim it) is born stylish. As with anything it’s something you become. But what are the habits stylish men adhere too? Here are the 23 habits of a stylish man, how many have you mastered? ",
+      "image": "/images/habits-of-stylish-man-730x500.jpg",
+      "link": "http://localhost:3000/article1"
+    },
+    {
+      "id": 2,
+      "title": "9 Rules To Follow When Wearing A Suit",
+      "author": "Paul McGregor",
+      "datetime": "2015-03-10",
+      "content": " The suit really is the be-all and end-all of style. It’s something every man should own, and it’s something that instantly makes you look and feel better.Even if you’re the definition of ‘I’m not really a suit guy’, there will be occasions (weddings, job interviews, events and more) where you’ll be required... ",
+      "image": "/images/featured-image6-730x500.jpg",
+      "link": "http://localhost:3000/article2"
+    },
+    {
+      "id": 3,
+      "title": "How To Pull Off The Smart Casual Dress...",
+      "author": "Paul McGregor",
+      "datetime": "2015-10-28",
+      "content": " Nothing screams elegance like formal attire, but often occasions don’t call for a full suit. With the smart casual dress code being admired by many, how does a man pull it off? Recent advice has often made things confusing but I’m here today to strip it right down for you, giving... ",
+      "image": "/images/smart-casual-dress-code-730x500.jpg",
+      "link": "http://localhost:3000/article3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "japes013",
+      "password": "japes013",
+      "email": "japes013@gmail.com"
+    }
+  ]
+}

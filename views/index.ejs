@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title><%= title %></title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+          <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Fashion</a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li><a href="http://localhost:3000">Home</a></li>
+                  <li><a href="/archive">Archive</a></li>
+                  <li><a href="http://localhost:3000/new">Post New Blog</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+              </div>
+            </nav>
+      </div>
+
+      <div class="row">
+          <div class="jumbotron home">
+        <h1 class="title">Mens Fashion Guide</h1>  
+        </div>
+      </div>
+
+      <div class="row">
+
+          <% if (posts.length) { %>
+ 
+            <% posts.forEach(function(post){ %>
+
+              <div class="col-xs-12 col-md-6 col-lg-4">
+        
+            <div class="panel panel-primary">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title"><%= post.title%></ h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="<%= post.image %>" alt="dummy" width="100%">
+                      <p><%-post.content%></p>
+                      <a class="btn-primary btn-lg" href=" <%= post.link %>" role="button">Read More</a>
+                    </div>
+                    <div class="panel-footer"><p>Author: <%= post.author %></p></div>
+                    <div class="panel-footer"><p>Date: <%= post.datetime %></p></div>
+                    <!-- <div class="panel-footer"><p>Time: <%= post.time %></p></div> -->
+            </div>
+              </div>
+          </div>
+
+          <% }); %>
+          
+        </div>
+      </div>
+
+    
+
+    <% } %>
+
+
+  </body>
+</html>

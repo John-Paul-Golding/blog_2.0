@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+        <h1>SIGN IN</h1>
+    </div>
+<div class="alert alert-danger">
+</div>
+
+    <form method="post" action="/">
+    <div class="info">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" name="username" placeholder="Username" id="username">
+        <br>
+
+        <label for="username">Password:</label>
+        <br>
+        <input type="password" name="password" placeholder="Password" id="password">
+        <br>
+    </div>
+
+
+    <a href="/index"><button type="submit" name="signin" class="btn btn-default navbar-btn">Login</button></a>
+  </form>
+  <a href="/signup"><button name="signup" class="btn btn-default navbar-btn">Sign Up</button></a>

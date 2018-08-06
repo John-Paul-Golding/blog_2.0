@@ -1,0 +1,58 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(../images/actor-adult-black-and-white-432059.jpg);
+}
+
+a {
+  color: #00B7FF;
+}
+
+.home{
+  text-align: center;
+  background-image: url(../images/bow-tie-close-up-fashion-161030.jpg);
+  background-size: 100% 150%;
+  width: 100hh !important;
+  height: 100vh !important;
+}
+
+.jumbotron h1{
+  color: #048BA8;
+}
+
+.jumbotron h1{
+  margin-top: -4%;
+}
+
+.panel-body h1{
+  text-align: center;
+}
+
+.panel-body h2{
+  color: beige;
+}
+
+.panel-body{
+  text-align: left; 
+  font-size: 16px;
+}
+
+.article1{
+  color: beige;
+}
+
+.article2{
+  color: beige;
+}
+
+.article3{
+  color: beige;
+}
+
+.dresscode3{
+  margin-left: 10%;
+}
+
+.bond{
+  margin-left: 20%;
+}
